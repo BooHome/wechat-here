@@ -276,4 +276,23 @@ public class StringUtil {
         return parse("{", "}", text, args);
     }
 
+    /**
+     * 判断一组字符串是否有空值
+     *
+     * @param strs 需要判断的一组字符串
+     * @return 判断结果，只要其中一个字符串为null或者为空，就返回true
+     */
+    public static boolean hasBlank(String... strs) {
+        if (null == strs || 0 == strs.length) {
+            return true;
+        } else {
+            //这种代码如果用java8就会很优雅了
+            for (String str : strs) {
+                if (isBlank(str)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
