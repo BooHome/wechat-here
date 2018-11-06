@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * 二维码相关API
  *
- * @author peiyu
+ * @author
  * @since 1.2
  */
 public class QrcodeAPI extends BaseAPI {

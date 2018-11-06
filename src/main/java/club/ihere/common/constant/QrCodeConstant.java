@@ -3,7 +3,7 @@ package club.ihere.common.constant;
 /**
  * 二维码相关常量常量
  * 
- * @author liruiming
+ * @author
  */
 public class QrCodeConstant {
 

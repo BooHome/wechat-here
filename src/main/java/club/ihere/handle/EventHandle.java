@@ -7,7 +7,7 @@ import club.ihere.common.message.req.BaseEvent;
 /**
  * 微信事件处理器接口
  *
- * @author peiyu
+ * @author
  * @since 1.1
  */
 public interface EventHandle<E extends BaseEvent> {

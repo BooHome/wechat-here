@@ -28,7 +28,7 @@ import static club.ihere.common.util.current.StringUtil.isNotBlank;
 /**
  * 将微信处理通用部分再抽象一层，使用其他框架框架的同学可以自行继承此类集成微信
  *
- * @author peiyu
+ * @author
  * @since 1.1
  */
 public abstract class WechatSupport {

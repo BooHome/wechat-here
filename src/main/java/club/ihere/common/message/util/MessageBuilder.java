@@ -1,7 +1,7 @@
 package club.ihere.common.message.util;
 
 /**
- * @author peiyu
+ * @author
  */
 public class MessageBuilder {
 

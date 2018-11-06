@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author peiyu
+ * @author
  */
 public class NewsMsg extends BaseMsg {
 

@@ -5,7 +5,7 @@ import club.ihere.common.api.entity.BaseModel;
 
 /**
  * 获取已添加至帐号下所有模板
- * @author wuwentao
+ * @author
  */
 public class PrivateTemplate extends BaseModel {
 	

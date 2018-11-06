@@ -2,7 +2,7 @@ package club.ihere.common.api.config;
 
 /**
  * 变化类型枚举
- * @author peiyu
+ * @author
  */
 public enum ChangeType {
     /**

@@ -15,7 +15,7 @@ import java.util.List;
  * API基类，提供一些通用方法
  * 包含自动刷新token、通用get post请求等
  *
- * @author peiyu
+ * @author
  * @since 1.2
  */
 public abstract class BaseAPI {

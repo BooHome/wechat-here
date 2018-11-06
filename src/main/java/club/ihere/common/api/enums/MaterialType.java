@@ -1,7 +1,7 @@
 package club.ihere.common.api.enums;
 
 /**
- * @author jileilei
+ * @author
  */
 public enum MaterialType {
 

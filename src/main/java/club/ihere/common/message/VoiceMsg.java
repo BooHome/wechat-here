@@ -3,7 +3,7 @@ package club.ihere.common.message;
 import club.ihere.common.message.util.MessageBuilder;
 
 /**
- * @author peiyu
+ * @author
  */
 public class VoiceMsg extends BaseMsg {
 

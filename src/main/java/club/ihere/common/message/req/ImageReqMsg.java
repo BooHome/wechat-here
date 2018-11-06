@@ -1,7 +1,7 @@
 package club.ihere.common.message.req;
 
 /**
- * @author peiyu
+ * @author
  */
 public final class ImageReqMsg extends BaseReqMsg {
 

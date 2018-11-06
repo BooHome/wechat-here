@@ -6,7 +6,7 @@ import club.ihere.common.message.req.BaseReqMsg;
 /**
  * 微信消息处理器接口
  *
- * @author peiyu
+ * @author
  * @since 1.1
  */
 public interface MessageHandle<M extends BaseReqMsg> {

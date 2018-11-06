@@ -22,7 +22,7 @@ import java.util.Map;
 /**
  * 客服相关API
  *
- * @author peiyu
+ * @author
  * @since 1.2
  */
 public class CustomAPI extends BaseAPI {

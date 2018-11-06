@@ -5,7 +5,7 @@ import java.nio.charset.Charset;
 /**
  * 常量
  * 
- * @author liu_xiaosong
+ * @author
  */
 public class Constant {
 

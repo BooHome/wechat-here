@@ -31,7 +31,7 @@ import java.util.Map;
  * 消息工具类
  * 用于解析微信平台消息xml报文
  *
- * @author peiyu
+ * @author
  */
 public final class MessageUtil {
 

@@ -17,7 +17,7 @@ import java.util.Map;
 /**
  * 系统API
  *
- * @author peiyu
+ * @author
  */
 public class SystemAPI extends BaseAPI {
 

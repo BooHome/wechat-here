@@ -28,7 +28,7 @@ import java.util.Map;
 /**
  * 多媒体资源API
  *
- * @author peiyu
+ * @author
  */
 public class MediaAPI extends BaseAPI {
 

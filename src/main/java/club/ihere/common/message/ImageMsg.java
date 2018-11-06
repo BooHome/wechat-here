@@ -4,7 +4,7 @@ package club.ihere.common.message;
 import club.ihere.common.message.util.MessageBuilder;
 
 /**
- * @author peiyu
+ * @author
  */
 public class ImageMsg extends BaseMsg {
 

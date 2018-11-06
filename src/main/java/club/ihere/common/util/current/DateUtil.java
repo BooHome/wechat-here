@@ -456,7 +456,7 @@ public class DateUtil {
     /**
      * 时间单位
      *
-     * @author liu_xiaosong
+     * @author
      */
     public enum DateUnit {
 
@@ -510,7 +510,7 @@ public class DateUtil {
     /**
      * 时间精度
      *
-     * @author liu_xiaosong
+     * @author
      */
     public enum DateScale {
 

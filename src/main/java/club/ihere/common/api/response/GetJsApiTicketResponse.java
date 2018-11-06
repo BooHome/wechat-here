@@ -3,7 +3,7 @@ package club.ihere.common.api.response;
 import com.alibaba.fastjson.annotation.JSONField;
 
 /**
- * @author daxiaoming
+ * @author
  */
 public class GetJsApiTicketResponse extends BaseResponse {
 
