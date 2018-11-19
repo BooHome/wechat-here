@@ -1,5 +1,10 @@
 package club.ihere.controller;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -11,6 +16,7 @@ import java.io.PrintWriter;
  * @date: 2018/11/2 11:37
  * @description:
  */
+@Controller
 public abstract class BaseWechatController extends WechatSupport{
 
     /**
@@ -19,6 +25,8 @@ public abstract class BaseWechatController extends WechatSupport{
      * @param request 请求
      * @return 响应内容
      */
+    @RequestMapping(method = RequestMethod.GET)
+    @ResponseBody
     protected final String bind(HttpServletRequest request) {
         if (isLegal(request)) {
             //绑定微信服务器成功
@@ -37,6 +45,7 @@ public abstract class BaseWechatController extends WechatSupport{
      * @throws ServletException 异常
      * @throws IOException      IO异常
      */
+    @RequestMapping(method = RequestMethod.POST)
     protected final void process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         if (isLegal(request)) {
             String result = processRequest(request);
