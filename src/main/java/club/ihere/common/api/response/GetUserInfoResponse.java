@@ -8,19 +8,29 @@ import com.alibaba.fastjson.annotation.JSONField;
 public class GetUserInfoResponse extends BaseResponse {
 
     private Integer subscribe;
-    private String  openid;
-    private String  nickname;
+    private String openid;
+    private String nickname;
     private Integer sex;
-    private String  language;
-    private String  city;
-    private String  province;
-    private String  country;
-    private String  headimgurl;
+    private String language;
+    private String city;
+    private String province;
+    private String country;
+    private String headimgurl;
     @JSONField(name = "subscribe_time")
-    private Long    subscribeTime;
-    private String  unionid;
+    private Long subscribeTime;
+    @JSONField(name = "subscribe_scene")
+    private String subscribeScene;
+    private String unionid;
     private String remark;
     private Integer groupid;
+
+    public String getSubscribeScene() {
+        return subscribeScene;
+    }
+
+    public void setSubscribeScene(String subscribeScene) {
+        this.subscribeScene = subscribeScene;
+    }
 
     public Integer getSubscribe() {
         return subscribe;
@@ -119,10 +129,10 @@ public class GetUserInfoResponse extends BaseResponse {
     }
 
     public Integer getGroupid() {
-		return groupid;
-	}
+        return groupid;
+    }
 
-	public void setGroupid(Integer groupid) {
-		this.groupid = groupid;
-	}
+    public void setGroupid(Integer groupid) {
+        this.groupid = groupid;
+    }
 }
